@@ -32,6 +32,18 @@ IMPORTANT:
 
 -->  to use: Index is the home, you have to create a directoris and organitzate the file into ./css  ./js, etc and have to read the  imprts from index and modficate correctly as like as you created the direcories. 
 
+My directory is like this: 
+  
+ 
+- Desktop/
+   /ResizerImage
+    ./css --> Jcrop.css
+    ./example --> index & Images
+    ./js  --> jquery.js
+    ./src --> jquery.ae.image.js
+    .json
+    
+
 Search: 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
