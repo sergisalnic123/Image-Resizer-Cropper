@@ -13,39 +13,57 @@ Important, i did this code for my job, and i used other projects from github, i 
  
  --> Image Resizer: Dynamic Image Resizing plugin with jquery
       link: http://www.jqueryscript.net/layout/Dynamic-Image-Resizing-Plugin-with-jQuery.html
-      {
+     
         ####HTML:
         ```html
         <img class="resizeme" src="sample1.jpg">
         ```
 
         ####JavaScript
-        `<!--
+         ```javascript
         $(function() {
             $( ".resizeme" ).aeImageResize({ height: 250, width: 250 });
         });
-      -->
-      }}}
-
+        ```
+      
 I USE: html, jQUERY, JAVASCRIPT, and css
 
-feel free to use, but: 
+IMPORTANT: 
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+-->  to use: Index is the home, you have to create a directoris and organitzate the file into ./css  ./js, etc and have to read the  imprts from index and modficate correctly as like as you created the direcories. 
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+My directory is like this: 
+  
+ 
+- Desktop/
+     -/ResizerImage
+         - ./css --> Jcrop.css
+         - ./example --> index & Images
+         - ./js  --> jquery.js
+         - ./src --> jquery.ae.image.js
+           .json
+    
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Search: 
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  
+    <script src="../js/jquery.min.js"></script>		
+  
+    <script src="../js/jquery.Jcrop.js"></script>
+  
+    <script src="../src/jquery.ae.image.resize.js"></script>
+...
+
+and Search too:
+
+    <link rel="stylesheet" href="demo_files/main.css" type="text/css" />
+    <link rel="stylesheet" href="demo_files/demos.css" type="text/css" />
+    <link rel="stylesheet" href="../css/jquery.Jcrop.css" type="text/css" />
+...
+
+If you dont do this, probably dont work, you have to read the import lines and change it as you think.
+
+for any problem just comment !
+
+Thanks for read and i wish you the best ! :D
