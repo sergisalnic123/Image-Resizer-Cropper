@@ -34,17 +34,20 @@ IMPORTANT:
 
 Search: 
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="../js/jquery.min.js"></script>		
-  <script src="../js/jquery.Jcrop.js"></script>
-  <script src="../src/jquery.ae.image.resize.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  
+    <script src="../js/jquery.min.js"></script>		
+  
+    <script src="../js/jquery.Jcrop.js"></script>
+  
+    <script src="../src/jquery.ae.image.resize.js"></script>
 ...
 
 and Search too:
 
-  <link rel="stylesheet" href="demo_files/main.css" type="text/css" />
-  <link rel="stylesheet" href="demo_files/demos.css" type="text/css" />
-  <link rel="stylesheet" href="../css/jquery.Jcrop.css" type="text/css" />
+    <link rel="stylesheet" href="demo_files/main.css" type="text/css" />
+    <link rel="stylesheet" href="demo_files/demos.css" type="text/css" />
+    <link rel="stylesheet" href="../css/jquery.Jcrop.css" type="text/css" />
 ...
 
 If you dont do this, probably dont work, you have to read the import lines and change it as you think.
