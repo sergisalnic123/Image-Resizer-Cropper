@@ -36,12 +36,12 @@ My directory is like this:
   
  
 - Desktop/
-   /ResizerImage
-    ./css --> Jcrop.css
-    ./example --> index & Images
-    ./js  --> jquery.js
-    ./src --> jquery.ae.image.js
-    .json
+     -/ResizerImage
+         - ./css --> Jcrop.css
+         - ./example --> index & Images
+         - ./js  --> jquery.js
+         - ./src --> jquery.ae.image.js
+           .json
     
 
 Search: 
